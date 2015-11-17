@@ -1,0 +1,24 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th>Name of cat</th>
+        <th>Color</th>
+        <th>Date found</th>
+        <th>Place found</th>
+        <th>Breed</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each cats}}
+      <tr class="success">
+        <td>{{name}}</td>
+        <td>{{color}}</td>
+        <td>{{date_found}}</td>
+        <td>{{area}}</td>
+        <td>{{breed}}</td>
+        <td>{{description}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>

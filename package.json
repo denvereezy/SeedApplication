@@ -1,0 +1,27 @@
+{
+  "name": "SeedApplication",
+  "version": "0.0.0",
+  "description": "A seed application is a small fully functional application that you can grow and tweak easily.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denvereezy/SeedApplication.git"
+  },
+  "author": "Denver Daniels",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/denvereezy/SeedApplication/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "express-handlebars": "~2.0.1",
+    "mysql": "~2.9.0",
+    "compression": "~1.6.0",
+    "bluebird": "~3.0.5",
+    "express-myconnection": "~1.0.4",
+    "body-parser": "~1.14.1"
+  }
+}
