@@ -5,8 +5,7 @@ var express = require('express'),
     myConnection = require('express-myconnection'),
     mysql = require('mysql'),
     bodyParser = require('body-parser'),
-    cat = require('./routes/cat'),
-    dog = require('./routes/dog');
+    animals = require('./routes/animals');
 
     var dbOptions = {
           host: 'localhost',
@@ -24,21 +23,9 @@ app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// app.get('/',function(req, res){
-//   res.render('index');
-// });
-
-// app.get('/dog',function(req, res){
-//   res.render('dog');
-// });
-
-app.get('/',dog.show);
-// app.get('/',cat.showComment);
-app.post('/lostdog/add', dog.add);
-app.post('/lostcat/add', cat.add);
-
-// app.get('/cats/show',
-// });
+app.get('/',animals.showAll);
+app.post('/lostdog/add', animals.addDogComment);
+app.post('/lostcat/add', animals.addCatComment);
 
 var port = process.env.PORT || 8022;
 var server = app.listen(port, function () {
