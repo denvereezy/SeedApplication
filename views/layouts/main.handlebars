@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
   <meta charset="utf-8">
@@ -12,10 +11,7 @@
   <title>Furry Friends</title>
   <link rel="icon" type="image/png" href="/images/dog50(2).png">
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/font-awesome.min.css" rel="stylesheet">
-  <link href="/css/animate.css" rel="stylesheet">
   <link href="/css/style.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
   <script src="/js/jquery-2.1.1.min.js"></script>
   <script src="/bootstrap/js/bootstrap.min.js"></script>
@@ -25,10 +21,8 @@
   <script src="/js/script.js"></script>
 
 </head>
-
 <body>
 
-  <!-- Start Logo Section -->
   <section id="logo-section" class="text-center">
     <div class="container">
       <div class="row">
@@ -41,42 +35,31 @@
       </div>
     </div>
   </section>
-  <!-- End Logo Section -->
 
-
-  <!-- Main Body Section -->
-  <div class="mainbody-section text-center">
+<div class="mainbody-section text-center">
     <div class="container">
       <div class="row">
-
         <div class="col-md-3">
-
           <div class="menu-item blue">
             <a href="#feature-modal" data-toggle="modal">
-              <i class="fa fa-envelope-o"></i>
+              <img src="/images/dog56(4).png" height="70px">
               <p>Report missing dog</p>
             </a>
           </div>
-
           <div class="menu-item green">
             <a href="#portfolio-modal" data-toggle="modal">
               <i class="fa fa-list-alt"></i>
               <p>Dogs found</p>
             </a>
           </div>
-
           <div class="menu-item light-red">
-            <a href="#about-modal" data-toggle="modal">
+            <a href="#dogBack" data-toggle="modal">
               <i class="fa fa-paw"></i>
-              <p>Dogs availible for adoption</p>
+              <p>Get my dog back</p>
             </a>
           </div>
-
         </div>
-
         <div class="col-md-6">
-
-          <!-- Start Carousel Section -->
           <div class="home-slider">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding-bottom: 30px;">
               <!-- Indicators -->
@@ -85,8 +68,6 @@
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
               </ol>
-
-              <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
                   <img src="/images/rsz_cat.jpg" class="img-responsive" alt="">
@@ -97,13 +78,9 @@
                 <div class="item">
                   <img src="/images/rsz_cat2.jpg" class="img-responsive" alt="">
                 </div>
-
               </div>
-
             </div>
           </div>
-          <!-- Start Carousel Section -->
-
           <div class="row">
             <div class="col-md-6">
               <div class="menu-item color responsive">
@@ -113,7 +90,6 @@
                 </a>
               </div>
             </div>
-
             <div class="col-md-6">
               <div class="menu-item light-orange responsive-2">
                 <a href="#team-modal" data-toggle="modal">
@@ -122,41 +98,31 @@
                 </a>
               </div>
             </div>
-
           </div>
-
         </div>
-
         <div class="col-md-3">
-
           <div class="menu-item light-red">
             <a href="#contact-modal" data-toggle="modal">
-              <i class="fa fa-envelope-o"></i>
+              <img src="/images/cat.png" height="70px">
               <p>Report missing cat </p>
             </a>
           </div>
-
           <div class="menu-item color">
             <a href="#testimonial-modal" data-toggle="modal">
               <i class="fa fa-list-alt"></i>
               <p>Cats found</p>
             </a>
           </div>
-
           <div class="menu-item blue">
-            <a href="#news-modal" data-toggle="modal">
+            <a href="#catBack" data-toggle="modal">
               <i class="fa fa-paw"></i>
-              <p>Cats availible for adoption</p>
+              <p>Get my cat back</p>
             </a>
           </div>
-
         </div>
       </div>
     </div>
   </div>
-  <!-- End Main Body Section -->
-
-  <!-- Start Copyright Section -->
   <div class="copyright text-center">
     <div class="container">
       <div class="row">
@@ -166,10 +132,8 @@
       </div>
     </div>
   </div>
-  <!-- End Copyright Section -->
 
-
-  <!-- Start Feature Section -->
+  <!-- missing dog -->
   <div class="section-modal modal fade" id="feature-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -178,10 +142,9 @@
           </div>
         </div>
       </div>
-
       <div class="container">
         <div class="row">
-          <div class="section-title text-center">
+          <div class="section-title text-center styles">
             <h3>Missing a dog?</h3>
             <p>Please complete the form below</p>
           </div>
@@ -216,22 +179,127 @@
                     </div>
                   </div>
                   <div id="success"></div>
-
                 </div>
                 <input type="submit">
               </form>
             </div>
           </div>
-        </div><!-- /.row -->
+        </div>
       </div>
-
     </div>
   </div>
-  <!-- End Feature Section -->
 
+  <div class="section-modal modal fade" id="dogBack" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center styles">
+            <h3>See your dog in the list?</h3>
+            <p>Please complete the form and get your dog back</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row" style="padding-top: 80px;">
+            <div class="col-md-12">
+              <form action="#" method="post">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" name="ownerName" value="{{ownerName}}" class="form-control" placeholder="Name of dog *" required data-validation-required-message="Please enter name of dog.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" name="email" value="{{email}}" class="form-control" placeholder="Your Email *" required data-validation-required-message="Please enter youremail.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" name="phoneNumber" value="{{phoneNumber}}" class="form-control" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" name="lastSeen" value="{{lastSeen}}" class="form-control" placeholder="Last seen *" required data-validation-required-message="Please enter your phone number.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <textarea name="description" value="{{description}}" class="form-control" placeholder="Description of the dog *" required data-validation-required-message="Please enter a description of the dog."></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div id="success"></div>
+                </div>
+                <input type="submit">
+              </form>
+                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="section-modal modal fade" id="catBack" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center styles">
+            <h3>See your cat in the list?</h3>
+            <p>Please complete the form and get your dog back</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row" style="padding-top: 80px;">
+            <div class="col-md-12">
+              <form action="#" method="post">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" name="ownerName" value="{{ownerName}}" class="form-control" placeholder="Name of cat *" required data-validation-required-message="Please enter name of cat.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" name="email" value="{{email}}" class="form-control" placeholder="Your Email *" required data-validation-required-message="Please enter youremail.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" name="phoneNumber" value="{{phoneNumber}}" class="form-control" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" name="lastSeen" value="{{lastSeen}}" class="form-control" placeholder="Last seen *" required data-validation-required-message="Please enter your phone number.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <textarea name="description" value="{{description}}" class="form-control" placeholder="Description of the dog *" required data-validation-required-message="Please enter a description of the dog."></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div id="success"></div>
+                </div>
+                <input type="submit">
+              </form>
+                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <!-- Start Portfolio Section -->
+  <!-- dogs found -->
   <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -240,12 +308,10 @@
           </div>
         </div>
       </div>
-
       <div class="container">
         <div class="row">
           <div class="section-title text-center">
-            <h3>Dogs found recently</h3>
-            <p>All of them looking for their owner or a new home</p>
+            <h3 class="styles">Dogs found recently</h3>
           </div>
         </div>
         <div class="row">
@@ -273,87 +339,12 @@
               {{/each}}
             </tbody>
           </table>
-
-
-        </div><!-- /.row -->
+        </div>
       </div>
-
     </div>
   </div>
-  <!-- End Portfolio Section -->
 
-
-  <!-- Start About Us Section -->
-  <!-- <div class="section-modal modal fade" id="about-modal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-content">
-  <div class="close-modal" data-dismiss="modal">
-  <div class="lr">
-  <div class="rl">
-</div>
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-<div class="section-title text-center">
-<h3>About Us</h3>
-<p>Duis aute irure dolor in reprehenderit in voluptate</p>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<div class="about-text">
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. It has roots in a piece of classical Latin literature from 45 BC</p>
-<div class="row">
-</div>                            </div>
-</div>
-</div>
-<div class="row">
-
-
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</div> -->
-<!-- End About Us Section -->
-
-
-<!-- Start Service Section -->
-<!-- <div class="section-modal modal fade" id="service-modal" tabindex="-1" role="dialog" aria-hidden="true">
-<div class="modal-content">
-<div class="close-modal" data-dismiss="modal">
-<div class="lr">
-<div class="rl">
-</div>
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-<div class="section-title text-center">
-<h3>Our Services</h3>
-<p>Duis aute irure dolor in reprehenderit in voluptate</p>
-</div>
-</div>
-<div class="row">
-
-</div>
-</div>
-
-<div class="pricing-section">
-<div class="container">
-<div class="row">
-</div>
-</div>
-</div> -->
-
-<!-- End Service Section -->
-
-
-<!-- Start Team Member Section -->
+<!-- cat comments -->
 <div class="section-modal modal fade" id="team-modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -362,7 +353,6 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="row">
         <h2>Comments</h2>
@@ -373,13 +363,10 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
-<!-- End Team Member Section -->
 
-
-<!-- Start Latest News Section -->
+<!-- dog comments -->
 <div class="section-modal modal fade" id="news-modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -388,7 +375,6 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="row">
         <h2>Comments</h2>
@@ -399,14 +385,10 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
-<!-- End Latest News Section -->
 
-
-
-<!-- Start Contact Section -->
+<!-- missing cat -->
 <div class="section-modal modal fade contact" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -415,12 +397,11 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="row">
-        <div class="section-title text-center">
+        <div class="section-title text-center styles">
           <h3>Missing a cat?</h3>
-          <p>Please complete the form below</p>
+          <h2>Please complete the form below</h2>
         </div>
         <div class="row" style="padding-top: 80px;">
           <div class="col-md-12">
@@ -428,11 +409,11 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" name="ownerName" value="{{ownerName}}" class="form-control" placeholder="Your Name *">
+                    <input type="text" name="ownerName" value="{{ownerName}}" class="form-control" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input type="email" name="email" value="{{email}}" class="form-control" placeholder="Your Email *">
+                    <input type="email" name="email" value="{{email}}" class="form-control" placeholder="Your Email *" required data-validation-required-message="Please enter youremail.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
@@ -451,21 +432,17 @@
                   </div>
                 </div>
                 <div id="success"></div>
-
               </div>
               <input type="submit">
             </form>
           </div>
         </div>
-      </div><!-- /.row -->
+      </div>
     </div>
-
   </div>
 </div>
-<!-- End Contact Section -->
 
-
-<!-- Start Testimonial Section -->
+<!-- cats found -->
 <div class="section-modal modal fade contact" id="testimonial-modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -474,12 +451,10 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="row">
         <div class="section-title text-center">
-          <h3>Cats found recently</h3>
-          <p>All of them needs a good home</p>
+          <h3 class="styles">Cats found recently</h3>
         </div>
         <table class="table">
           <thead>
@@ -505,14 +480,8 @@
             {{/each}}
           </tbody>
         </table>
-      </div><!--/.row -->
-
+      </div>
     </div>
-
   </div>
-</div>
-<!-- End Testimonial Section -->
-
 </body>
-
 </html>
